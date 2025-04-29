@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Interview Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendors/themify-icons/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/meyawo.css') }}">
+</head>
+
+
+<body>
+    <!-- page header -->
+    <header id="home" class="header">
+        <!-- <div class="overlay"></div> -->
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="down">External reference</span>
+            </h1>
+            <p class="header-subtitle">Decisions are based on outside information.</p>  
+
+            <form action="{{ url_for('home') }}">
+                <button class="btn-rounded btn btn-primary">Do another</button>
+            </form>
+
+        </div>              
+    </header><!-- end of page header -->
+
+</body>
+</html>
