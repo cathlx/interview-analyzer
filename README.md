@@ -21,4 +21,4 @@ Interview analyzer to determine the reference type of the respondent (internal/e
 
 ## Usage
 
-Visit `http://127.0.0.1:5000` in your web browser. Ctrl+C to quit.
+Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your web browser. Ctrl+C to quit.
